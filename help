@@ -1,0 +1,12 @@
+Comando de criação e atualização do model
+
+vendor/bin/doctrine orm:schema-tool:create
+vendor/bin/doctrine orm:schema-tool:update -f
+vendor/bin/doctrine orm:schema-tool:drop -f
+
+
+
+
+php composer.phar update
+php composer.phar install
+php composer.phar install --ignore-platform-reqs
